@@ -6,7 +6,7 @@ app = Flask(__name__)
 def index():
     return render_template('Corpo.html')
 
-@app.route('/portugês')
+@app.route('/português')
 def portugues():
     return render_template('primeiro.html')
 

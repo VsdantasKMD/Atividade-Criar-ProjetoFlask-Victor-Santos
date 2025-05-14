@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='img/GI Lixo.jpg')}}"
+    <title>Matéria de Geográfia</title>
 </head>
 <body>
     <h1>Disciplina de Geográfia</h1>
+    <br>
+    <img src="{{ url_for('static', filename='img/GI Lixo.jpg')}}">
     <br>
     <h3>Notas do Bimestre</h3>
     <hr>
@@ -16,5 +19,6 @@
         <li>Nota: 7,8</li>
         <li>Nota:9,2</li>
     </ol>
+    <p><a href="/">Voltar para a página principal</a></p>
 </body>
 </html>
